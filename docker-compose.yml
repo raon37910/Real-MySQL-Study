@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: qwer1234
-      MYSQL_DATABASE: devlog
+      MYSQL_DATABASE: study-mysql
       MYSQL_USER: local
       MYSQL_PASSWORD: local
     ports:
